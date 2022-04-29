@@ -100,6 +100,7 @@ a:link {
   color: #1098ad;
   text-decoration: none;
 }
+
 a:visted {
   color: #1098ad;
 }
@@ -111,4 +112,19 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+/* resolving conflicts */
+#copyright-footer {
+  color: #d55f0b;
+}
+.copyright-footer {
+  color: rgb(255, 0, 0);
+}
+
+.text {
+  color: yellow;
+}
+footer p {
+  color: green;
 }
