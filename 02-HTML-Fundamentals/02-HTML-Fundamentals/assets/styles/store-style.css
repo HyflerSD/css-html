@@ -1,7 +1,6 @@
 body {
   border: 5px solid black;
   font-family: sans-serif;
-  line-height: 1.5;
 }
 
 .product-title {
@@ -12,7 +11,6 @@ body {
 }
 .price-product {
   font-style: bold;
-  font-size: 24px;
 }
 
 .shipping {
@@ -22,21 +20,20 @@ body {
   text-transform: uppercase;
 }
 
-.more-info:link,
-.more-info:visited {
+.more-info:link {
   color: black;
 }
 
-.more-info:hover,
-.more-info:active {
+.more-info:hover {
   text-decoration: none;
 }
 
-.prod-list {
-  list-style-type: square;
+button:hover {
+  background-color: #fff;
+  color: black;
 }
 
-.add-cart {
+button {
   background-color: black;
   color: #f7f7f7;
   font-size: 20px;
@@ -44,7 +41,6 @@ body {
   cursor: pointer;
   border: none;
 }
-.add-cart:hover {
-  background-color: #fff;
-  color: black;
+ul {
+  list-style-type: square;
 }
