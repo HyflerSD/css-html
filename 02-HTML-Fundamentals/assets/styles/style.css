@@ -31,7 +31,7 @@ body {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 aside {
@@ -85,8 +85,13 @@ p {
   margin-bottom: 15px;
   line-height: 1.5;
 }
+.more-link {
+  display: inline-block;
+  margin-bottom: 100px;
+}
 
 li {
+  /* display: inline; */
   font-size: 20px;
   margin-bottom: 10px;
 }
@@ -140,6 +145,16 @@ article p:first-child {
 a:link {
   color: #1098ad;
   text-decoration: none;
+}
+nav a:link:last-child {
+  /* margin-right: 0; */
+}
+
+nav a:link {
+  background-color: orange;
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
 }
 
 a:visted {

@@ -36,7 +36,8 @@ body {
 .more-info:link,
 .more-info:visited {
   color: black;
-  /* margin-bottom: 15px; */
+  display: inline-block;
+  margin-bottom: 15px;
 }
 
 .more-info:hover,
@@ -47,7 +48,7 @@ body {
 .product-details {
   text-transform: uppercase;
   margin-bottom: 15px;
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 
 .prod-list {
