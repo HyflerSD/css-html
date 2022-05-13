@@ -28,6 +28,7 @@ body {
   position: relative;
   /* margin: 0; */
 }
+
 .main-header {
   border-top: 10px solid #1098ad;
   background-color: #f7f7f7;
@@ -181,6 +182,41 @@ button {
   left: 0; */
   bottom: 50px;
   right: 50px;
+}
+/* pseudo elements */
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+/* h2::first-letter {
+  font-style: normal;
+  margin-right: 80px;
+} */
+/* p::first-line {
+  color: #d55f0b;
+} */
+
+/* Adjacent sibling selctor, will select the element thats right after the psuedo element */
+/* h3 + p::first-line {
+  color: #d55f0b;
+} */
+
+/* After Pseudo Elements */
+h2 {
+  /* background-color: orchid; */
+  position: relative;
+}
+h2::after {
+  content: "TOP";
+  background-color: #ffff00;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
 }
 
 /* resolving conflicts */
