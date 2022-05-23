@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -27,7 +27,7 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  background-color: purple;
+  /* background-color: purple; */
   /* height: 80px; */
 }
 
@@ -291,4 +291,19 @@ nav {
   content: "";
   clear: both;
   display: block;
+}
+
+article {
+  /* background-color: yellow; */
+  width: 70%;
+  float: left;
+}
+aside {
+  float: right;
+  /* background-color: green; */
+  width: 25%;
+}
+footer {
+  background-color: pink;
+  clear: both;
 }
