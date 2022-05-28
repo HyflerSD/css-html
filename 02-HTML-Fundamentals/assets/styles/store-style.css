@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 header {
   position: relative;
@@ -26,6 +27,8 @@ body {
 .price-product {
   font-style: bold;
   font-size: 24px;
+  float: left;
+  display: inline-block;
 }
 h2::after {
   content: "Sale";
@@ -47,6 +50,7 @@ h2::after {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
+  /* margin-top: 8px; */
 }
 
 .more-info:link,
@@ -65,11 +69,11 @@ h2::after {
   /* float: left; */
   margin-bottom: 15px;
   margin-top: 20px;
-  margin-bottom: 30px;
-  margin-right: 15px;
+  margin-bottom: 0;
+  margin-right: 3px;
   cursor: pointer;
-  height: 22px;
-  width: 22px;
+  height: 20px;
+  width: 20px;
   /* clear: both; */
   display: inline-block;
 }
@@ -125,3 +129,64 @@ ul {
   color: black;
   border-top: 4px solid black;
 }
+.product-image-sale {
+  display: inline-block;
+  float: left;
+
+  margin-right: 0, 40px, 0, 0;
+}
+
+.price-info {
+  float: left;
+  /* display: inline-block; */
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 243px;
+  margin-top: 15px;
+}
+.product-description {
+  display: inline-block;
+  float: right;
+  width: 243px;
+  margin-top: 15px;
+}
+.shipping {
+  float: right;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.disc {
+  font-size: 1rem;
+}
+strong {
+  font-weight: bold;
+  /* display: inline-block; */
+}
+/* @media screen and (max-width: 800px){
+  .container{
+    width: auto; 
+    display: flex;
+  
+  }
+  .price-info{l
+    float: none;
+  }
+  .product-description{
+    float: none;
+  }
+  .add-cart{
+    width: auto;
+    
+  }
+  .product-image-sale{
+    display: auto;
+  }
+  .product-title{
+    width: 100%;
+    /* flex: 1; */
+
+/* } */
+/* }  */
