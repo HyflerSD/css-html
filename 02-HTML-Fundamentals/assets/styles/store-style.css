@@ -10,15 +10,15 @@ body {
 }
 
 .clearfix::after {
-  content: "";
-  display: block;
+  /* content: "";
+  display: block; */
   /* clear: both; */
 }
 
 .container {
   /* background-color: red; */
   display: flex;
-  gap: 25px;
+  gap: 40px;
   align-items: center;
 }
 
@@ -104,13 +104,14 @@ body {
 }
 .colors {
   display: flex;
+  gap: 10px;
 }
 .color {
   background-color: #000;
   height: 22px;
   width: 22px;
   /* display: inline-block; */
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 .color-blue {
