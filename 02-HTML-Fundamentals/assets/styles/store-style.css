@@ -12,7 +12,7 @@ body {
 .clearfix::after {
   content: "";
   display: block;
-  clear: both;
+  /* clear: both; */
 }
 
 .container {
@@ -87,7 +87,7 @@ body {
 }
 
 .product-description {
-  clear: both;
+  /* clear: both; */
   margin-bottom: 10px;
 }
 
