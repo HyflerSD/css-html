@@ -53,7 +53,7 @@ aside {
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 40px;
-  
+
   /* width: 500px; */
 }
 
@@ -202,7 +202,7 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: inline-block;
 }
 
@@ -272,7 +272,7 @@ nav p {
 } */
 
 /* FLOATS */
-
+/*
 .author-img {
   float: left;
   margin-bottom: 20px;
@@ -299,16 +299,49 @@ nav {
 
 article {
   /* background-color: yellow; */
-  width: 70%;
-  float: left;
-}
+/* width: 70%;
+  float: left; */
+/* } 
 aside {
   float: right;
   /* background-color: green; */
-  width: 25%;
-}
+/* width: 25%;
+} */
 
-footer {
+/* footer {
   background-color: pink;
   clear: both;
+} */
+/* FLEX BOX */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.auth-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.author {
+  margin: 0;
+  margin-left: 15px;
+}
+.related-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  display: block;
+  margin-bottom: 5px;
+}
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
 }
