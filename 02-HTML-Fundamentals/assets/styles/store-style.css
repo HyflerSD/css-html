@@ -25,7 +25,7 @@ body {
 .product-img {
   /* float: left; */
   /* margin-right: 40px; */
-  /* gap: 25px; */
+  gap: 25px;
 }
 
 /* PRODUCT */
@@ -171,6 +171,10 @@ body {
 .add-cart:hover {
   color: #000;
   background-color: #fff;
+}
+.price-shipping {
+  display: flex;
+  justify-content: space-between;
 }
 .price-shipping {
   display: flex;
