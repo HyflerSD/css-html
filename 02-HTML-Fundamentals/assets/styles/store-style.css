@@ -19,12 +19,13 @@ body {
   /* background-color: red; */
   display: flex;
   gap: 25px;
+  align-items: center;
 }
 
 .product-img {
   /* float: left; */
   /* margin-right: 40px; */
-  gap: 25px;
+  /* gap: 25px; */
 }
 
 /* PRODUCT */
