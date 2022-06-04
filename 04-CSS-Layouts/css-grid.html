@@ -40,9 +40,18 @@
         margin: 40px;
 
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: 250px 250px 150px 150px;
+        grid-template-rows: 300px 200px;
+        /* gap: 20px; */
+        column-gap: 20px;
+        row-gap: 30px;
       }
-
+      /* .container {
+        justify-content: center;
+      } */
       .container--2 {
+        display: none;
         /* STARTER */
         font-family: sans-serif;
         background-color: black;
@@ -54,10 +63,13 @@
 
         /* CSS GRID */
       }
+      /* .el--1 {
+        justify-self: start;
+      } */
     </style>
   </head>
   <body>
-    <div class="container--1">
+    <div class="container container--1">
       <div class="el el--1">(1) HTML</div>
       <div class="el el--2">(2) and</div>
       <div class="el el--3">(3) CSS</div>
@@ -68,7 +80,7 @@
       <div class="el el--8">(8) learn</div>
     </div>
 
-    <div class="container--2">
+    <div class="container container--2">
       <div class="el el--1">(1)</div>
       <div class="el el--3">(3)</div>
       <div class="el el--4">(4)</div>
