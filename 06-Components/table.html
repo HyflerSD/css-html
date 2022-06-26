@@ -30,6 +30,36 @@
         padding: 0;
         box-sizing: border-box;
       }
+      body {
+        display: grid;
+        min-height: 30vh;
+        place-items: center;
+        font-family: "inter", sans-serif;
+      }
+      table {
+        width: 800px;
+        background-color: hsl(0, 0%, 98%);
+        /* border: 1px solid #3f6212; */
+        border-collapse: collapse;
+      }
+      thead th {
+        background-color: #087f5b;
+        color: #fff;
+        width: 25%;
+        font-size: 18px;
+      }
+      th,
+      td {
+        /* border: 1px solid hsl(0, 0%, 50%); */
+        padding: 16px 24px;
+        text-align: left;
+      }
+      tbody tr:nth-child(odd) {
+        background-color: hsl(0, 0%, 97%);
+      }
+      tbody tr:nth-child(even) {
+        background-color: hsl(0, 0%, 90%);
+      }
     </style>
   </head>
   <body>
