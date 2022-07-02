@@ -27,27 +27,44 @@
       .container {
         width: 1200px;
         margin: 0 auto;
+        position: relative;
       }
       header {
-        background-color: red;
+        /* background-color: red; */
         height: 100vh;
+
+        background-image: linear-gradient(
+            to right,
+            rgba(26, 25, 25, 0.6),
+            rgba(37, 37, 37, 0.5)
+          ),
+          url("hero.jpg");
+        background-size: cover;
       }
       nav {
-        font-family: 20px;
+        font-size: 20px;
         font-weight: 700;
         display: flex;
         justify-content: space-between;
-        background-color: green;
+        color: #f7f7f7;
+        text-transform: uppercase;
+        /* position: absolute; */
+        padding-top: 32px;
+
+        /* background-color: green; */
       }
       h1 {
         font-size: 52px;
         margin-bottom: 32px;
         font-weight: 700;
+        line-height: 1.05;
+        color: #fff;
       }
       p {
         font-size: 20px;
         line-height: 1.6;
         margin-bottom: 48px;
+        color: #ebebeb;
       }
       .btn:link,
       .btn:visited {
@@ -60,13 +77,34 @@
         padding: 16px 32px;
         border-radius: 10px;
       }
+      .btn {
+        box-shadow: 0 0.25px px 0 black;
+      }
       h2 {
         font-size: 44px;
         margin-bottom: 48px;
       }
       section {
         padding: 96px 0;
-        background-color: #f7f7f7;
+        background: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.103),
+          rgba(0, 0, 0, 0.144)
+        );
+      }
+      section p {
+        color: rgb(49, 49, 49);
+      }
+      .header-container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        /* background-color: yellow; */
+      }
+      .header-container-inner {
+        width: 50%;
+        /* background-color: pink; */
       }
     </style>
   </head>
@@ -77,14 +115,17 @@
         <div>Logo</div>
         <div>Navigation</div>
       </nav>
-      <div class="container">
-        <h1>A Healthy Meal Delivered to your door, every single day</h1>
-        <p>
-          The smart 365-days-per-year food plan will not make you eat Healthy
-          Only You will shiela! Tailored to your personal tastes and nutritial
-          needs.
-        </p>
-        <a href="#" class="btn">Start Eating</a>
+      <div class="container header-container">
+        <div class="header-container-inner">
+          <h1>A healthy meal delivered to your door, every single day</h1>
+
+          <p>
+            The smart 365-days-per-year food plan will not make you eat Healthy
+            Only You will shiela! Tailored to your personal tastes and nutritial
+            needs.
+          </p>
+          <a href="#" class="btn">Start eating well</a>
+        </div>
       </div>
     </header>
     <section>
