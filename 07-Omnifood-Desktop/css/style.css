@@ -96,6 +96,21 @@ body {
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 /* --------------------------------------------------------------- 
 ---------------HEADER-------------------------------*/
 .logo {
@@ -199,3 +214,6 @@ body {
   color: #cf711f;
   font-weight: 700;
 }
+
+/* --------------------------------------------------------------- 
+---------------HOW IT WORKS-------------------------------*/
