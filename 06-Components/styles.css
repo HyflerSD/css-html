@@ -1,0 +1,151 @@
+.get-started {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  background-size: cover !important;
+  margin-bottom: 8%;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://staging.thecabinetsaver.com/media/wysiwyg/Homepage/get-started/image_13.png");
+}
+.get-started .get-started-container {
+  position: absolute;
+  top: 17% !important;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+.get-started .get-started-container .get-started-para {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: Josefin sans-serif;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffff;
+  margin-top: 0px !important;
+}
+.get-started .get-started-container .get-started-submit {
+  text-align: center;
+}
+.get-started-outer-wrapper {
+  position: relative;
+  display: grid;
+  place-items: center;
+  grid-gap: 60px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.get-started-outer-wrapper h2 {
+  position: relative;
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: 0em;
+  color: #ffff;
+  box-shadow: #ffff;
+  font-family: Josefin sans-serif;
+}
+.get-started-outer-wrapper h2::before {
+  content: url("https://staging.thecabinetsaver.com/media/wysiwyg/Homepage/white-line.png");
+  position: absolute;
+  right: -webkit-calc(100% + 101px);
+  right: -moz-calc(100% + 101px);
+  right: -o-calc(100% + 101px);
+  transform-origin: 100% 100%;
+  transform: scaleX(10);
+  right: -webkit-calc(100% + 101px);
+}
+.get-started-outer-wrapper h2::after {
+  content: url("https://staging.thecabinetsaver.com/media/wysiwyg/Homepage/get-started/white-dots.png");
+  position: absolute;
+  right: -webkit-calc(100% + 63px);
+  right: -moz-calc(100% + 63px);
+  right: -o-calc(100% + 63px);
+}
+.get-started-form {
+  width: 43%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 42px !important;
+}
+.get-started-form input {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+  background: rgba(0, 0, 0, 0.1);
+  mix-blend-mode: multiply;
+  border-radius: 1px;
+  padding-left: 8px !important;
+}
+.get-started-form input::placeholder {
+  color: #fff;
+  opacity: 0.8;
+}
+.get-started-submit {
+  background: #dec3c3 !important;
+  padding: 10px 25px !important;
+  border: none !important;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 40px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Josefin sans-serif;
+}
+.get-started-submit a {
+  text-decoration: none;
+  color: black !important;
+  font-weight: 600 !important;
+}
+select {
+  appearance: none;
+  background: rgba(0, 0, 0, 0.1) !important;
+  color: pink;
+  outline: 0;
+  border: 1px solid #fff;
+  box-shadow: none;
+  opacity: 0.8;
+  flex: 1;
+  padding: 0 1em;
+  color: #fff;
+  background-color: var(--darkgray);
+  cursor: pointer;
+  padding-left: 8px !important;
+} /* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+} /* Custom Select wrapper */
+.select {
+  position: relative;
+  display: flex;
+  height: 2.5em;
+  overflow: hidden;
+} /* Arrow */
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5em;
+  background: red !important;
+  display: flex;
+  align-items: center;
+  transition: 0.25s all ease;
+  pointer-events: none;
+  color: #fff;
+  font-size: 11px;
+}
+/* select:required:invalid {
+  color: gray;
+}
+option[value=""][disabled] {
+  display: none;
+}
+option {
+  color: black;
+} */
